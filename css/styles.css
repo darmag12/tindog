@@ -27,6 +27,7 @@ body{
 }
 
 
+
 .container-fluid{
     padding: 3% 15%;
 }
@@ -60,8 +61,25 @@ em{
     font-weight: bold;
 }
 
+@media (max-width: 500px){
+    .navbar-brand{
+        font-size: 2.5rem;
+    }
+}
+
+
 .navbar-item{
     padding: 0 18px;
+}
+
+.navbar-toggler-icon{
+    font-size: 2rem;
+}
+
+@media (max-width: 500px){
+    .navbar-toggler-icon{
+        font-size: 2.5rem;
+    }
 }
 
 .nav-link{
@@ -118,6 +136,7 @@ em{
     padding: 7% 15%;
 }
 
+
 .features-align{
     text-align: center;
     padding: 3%;
@@ -139,8 +158,20 @@ em{
     font-size: 1.35rem;
 }
 
+@media (max-width: 500px){
+    .features-align h3{
+        font-size: 2rem;
+    }
+}
+
 .features-align p{
     color: #8f8f8f;
+}
+
+@media (max-width: 500px){
+    .features-align p{
+        font-size: 1.5rem;
+    }
 }
 
 
